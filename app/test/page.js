@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react'
+import Image from 'next/image'
 
 import styles from './divnext.module.css'
 
@@ -37,14 +38,14 @@ const Divnext = (props) => {
                     <button className={styles['link-button']}>
                       <div className={styles['divflex']}>
                         <div className={styles['div02']}>
-                          <img
+                          <Image
                             src="/play-store-transparent-icon.png.png"
                             alt="playstoretransparenticonpng118"
                             className={styles['playstoretransparenticonpng']}
                           />
                         </div>
                         <div className={styles['div03']}>
-                          <img
+                          <Image
                             src="/app-store-transparent-icon.png.png"
                             alt="appstoretransparenticonpng120"
                             className={styles['appstoretransparenticonpng']}
@@ -66,18 +67,18 @@ const Divnext = (props) => {
                     </div>
                   </div>
                   <div className={styles['divmxauto']}>
-                    <img
+                    <Image
                       src="/video-play-image.png.png"
                       alt="videoplayimagepng127"
                       className={styles['videoplayimagepng']}
                     />
                   </div>
                 </div>
-                {/* <img src alt="divhidden128" className={styles['divhidden']} /> */}
+                {/* <Image src alt="divhidden128" className={styles['divhidden']} /> */}
                 <div className={styles['divhidden1']}>
                   <div className={styles['divflex01']}>
                     <div className={styles['div04']}>
-                      <img
+                      <Image
                         src="/liquide-broach.png.png"
                         alt="liquidebroachpng132"
                         className={styles['liquidebroachpng']}
@@ -104,7 +105,7 @@ const Divnext = (props) => {
                   </div>
                   <div className={styles['divflex02']}>
                     <div className={styles['div05']}>
-                      <img
+                      <Image
                         src="/liquide-tick.png.png"
                         alt="liquidetickpng141"
                         className={styles['liquidetickpng']}
@@ -131,7 +132,7 @@ const Divnext = (props) => {
                   </div>
                   <div className={styles['divflex03']}>
                     <div className={styles['div06']}>
-                      <img
+                      <Image
                         src="/dual-ring.png.png"
                         alt="dualringpng150"
                         className={styles['dualringpng']}
@@ -163,7 +164,7 @@ const Divnext = (props) => {
               <div className={styles['divcontainer1']}>
                 <div className={styles['link']}>
                   <div className={styles['div07']}>
-                    <img
+                    <Image
                       src="/inc-42.png.png"
                       alt="inc42png161"
                       className={styles['inc42png']}
@@ -172,7 +173,7 @@ const Divnext = (props) => {
                 </div>
                 <div className={styles['link01']}>
                   <div className={styles['div08']}>
-                    <img
+                    <Image
                       src="/cnbc.png.png"
                       alt="cnbcpng164"
                       className={styles['cnbcpng']}
@@ -181,7 +182,7 @@ const Divnext = (props) => {
                 </div>
                 <div className={styles['link02']}>
                   <div className={styles['div09']}>
-                    <img
+                    <Image
                       src="/yourstory.png.png"
                       alt="yourstorypng167"
                       className={styles['yourstorypng']}
@@ -190,7 +191,7 @@ const Divnext = (props) => {
                 </div>
                 <div className={styles['link03']}>
                   <div className={styles['div10']}>
-                    <img
+                    <Image
                       src="/business-standard.png.png"
                       alt="businessstandardpng170"
                       className={styles['businessstandardpng']}
@@ -199,7 +200,7 @@ const Divnext = (props) => {
                 </div>
                 <div className={styles['link04']}>
                   <div className={styles['div11']}>
-                    <img
+                    <Image
                       src="/entrackr.png.png"
                       alt="entrackrpng173"
                       className={styles['entrackrpng']}
@@ -229,7 +230,7 @@ const Divnext = (props) => {
                     <div className={styles['divpx4']}>
                       <div className={styles['divflex05']}>
                         <div className={styles['div16']}>
-                          <img
+                          <Image
                             src="/tradeSetup.png.png"
                             alt="tradeSetuppng187"
                             className={styles['trade-setuppng']}
@@ -247,7 +248,7 @@ const Divnext = (props) => {
                     <div className={styles['divpx41']}>
                       <div className={styles['divflex06']}>
                         <div className={styles['div18']}>
-                          <img
+                          <Image
                             src="/limo.png.png"
                             alt="limopng194"
                             className={styles['limopng']}
@@ -265,7 +266,7 @@ const Divnext = (props) => {
                     <div className={styles['divpx42']}>
                       <div className={styles['divflex07']}>
                         <div className={styles['div20']}>
-                          <img
+                          <Image
                             src="/portfoliohealth.png.png"
                             alt="portfoliohealthpng1101"
                             className={styles['portfoliohealthpng']}
@@ -281,7 +282,7 @@ const Divnext = (props) => {
                       </div>
                     </div>
                     <div className={styles['image']}>
-                      <img
+                      <Image
                         src="/image.png"
                         alt="image"
                         className={styles['image1']}
@@ -290,7 +291,7 @@ const Divnext = (props) => {
                     <div className={styles['divpx43']}>
                       <div className={styles['divflex08']}>
                         <div className={styles['div22']}>
-                          <img
+                          <Image
                             src="/expertHotline.png.png"
                             alt="expertHotlinepng1108"
                             className={styles['expert-hotlinepng']}
@@ -309,7 +310,7 @@ const Divnext = (props) => {
                     </div>
                     <div className={styles['divpx44']}>
                       <div className={styles['divflex09']}>
-                        <img
+                        <Image
                           src="/marketCommentary.png.png"
                           alt="marketCommentarypng1114"
                           className={styles['market-commentarypng']}
@@ -346,7 +347,7 @@ const Divnext = (props) => {
                                     <span>Explore market</span>
                                   </span>
                                 </div>
-                                <img
+                                <Image
                                   src="/SVG1125-sc7a.svg"
                                   alt="SVG1125"
                                   className={styles['svg']}
@@ -366,7 +367,7 @@ const Divnext = (props) => {
           <div className={styles['divcontainer2']}>
             <div className={styles['div26']}>
               <div className={styles['link06']}>
-                <img
+                <Image
                   src="/liquide-one-banner-xl.png.png"
                   alt="liquideonebannerxlpng1132"
                   className={styles['liquideonebannerxlpng']}
@@ -394,7 +395,7 @@ const Divnext = (props) => {
                   </div>
                 </div>
               </div>
-              <img
+              <Image
                 src="/trusted-brokers.png.png"
                 alt="trustedbrokerspng1144"
                 className={styles['trustedbrokerspng']}
@@ -423,7 +424,7 @@ const Divnext = (props) => {
                     <div className={styles['divmxautomargin']}>
                       <div className={styles['divmxauto01']}>
                         <div className={styles['divflex11']}>
-                          {/* <img
+                          {/* <Image
                             src
                             alt="divhidden1158"
                             className={styles['divhidden2']}
@@ -432,7 +433,7 @@ const Divnext = (props) => {
                             <div className={styles['divhidden3']}>
                               <button className={styles['button']}>
                                 <div className={styles['div30']}>
-                                  {/* <img
+                                  {/* <Image
                                     src
                                     alt="whiteleftarrowpng1163"
                                     className={styles['whiteleftarrowpng']}
@@ -441,7 +442,7 @@ const Divnext = (props) => {
                               </button>
                               <button className={styles['button01']}>
                                 <div className={styles['div31']}>
-                                  {/* <img
+                                  {/* <Image
                                     src
                                     alt="whiterightarrowpng1166"
                                     className={styles['whiterightarrowpng']}
@@ -466,7 +467,7 @@ const Divnext = (props) => {
                                     <div className={styles['divflex12']}>
                                       <div className={styles['divflex13']}>
                                         <div className={styles['div32']}>
-                                          <img
+                                          <Image
                                             src="/liberty_Full.png.png"
                                             alt="libertyFullpng1179"
                                             className={
@@ -505,7 +506,7 @@ const Divnext = (props) => {
                                             className={styles['divmr1margin']}
                                           >
                                             <div className={styles['divmr1']}>
-                                              <img
+                                              <Image
                                                 src="/SVG1191-vdzck.svg"
                                                 alt="SVG1191"
                                                 className={styles['svg01']}
@@ -551,7 +552,7 @@ const Divnext = (props) => {
                                               className={styles['divml1margin']}
                                             >
                                               <div className={styles['divml1']}>
-                                                <img
+                                                <Image
                                                   src="/SVG1203-k9k9.svg"
                                                   alt="SVG1203"
                                                   className={styles['svg02']}
@@ -587,7 +588,7 @@ const Divnext = (props) => {
                                     <div className={styles['divflex18']}>
                                       <div className={styles['divflex19']}>
                                         <div className={styles['div33']}>
-                                          <img
+                                          <Image
                                             src="/MFSL_CROP.png.png"
                                             alt="MFSLCROPpng1216"
                                             className={styles['mfslcro-ppng']}
@@ -626,7 +627,7 @@ const Divnext = (props) => {
                                             className={styles['divmr1margin1']}
                                           >
                                             <div className={styles['divmr11']}>
-                                              <img
+                                              <Image
                                                 src="/SVG1228-ho9l.svg"
                                                 alt="SVG1228"
                                                 className={styles['svg03']}
@@ -676,7 +677,7 @@ const Divnext = (props) => {
                                               <div
                                                 className={styles['divml11']}
                                               >
-                                                <img
+                                                <Image
                                                   src="/SVG1240-o8u.svg"
                                                   alt="SVG1240"
                                                   className={styles['svg04']}
@@ -714,7 +715,7 @@ const Divnext = (props) => {
                                     <div className={styles['divflex24']}>
                                       <div className={styles['divflex25']}>
                                         <div className={styles['div34']}>
-                                          <img
+                                          <Image
                                             src="/LEMONTREE_CROP.png.png"
                                             alt="LEMONTREECROPpng1253"
                                             className={
@@ -755,7 +756,7 @@ const Divnext = (props) => {
                                             className={styles['divmr1margin2']}
                                           >
                                             <div className={styles['divmr12']}>
-                                              <img
+                                              <Image
                                                 src="/SVG1265-rnye.svg"
                                                 alt="SVG1265"
                                                 className={styles['svg05']}
@@ -805,7 +806,7 @@ const Divnext = (props) => {
                                               <div
                                                 className={styles['divml12']}
                                               >
-                                                <img
+                                                <Image
                                                   src="/SVG1277-jzeh.svg"
                                                   alt="SVG1277"
                                                   className={styles['svg06']}
@@ -843,7 +844,7 @@ const Divnext = (props) => {
                                     <div className={styles['divflex30']}>
                                       <div className={styles['divflex31']}>
                                         <div className={styles['div35']}>
-                                          <img
+                                          <Image
                                             src="/PRAJIND_CROP.png.png"
                                             alt="PRAJINDCROPpng1290"
                                             className={
@@ -884,7 +885,7 @@ const Divnext = (props) => {
                                             className={styles['divmr1margin3']}
                                           >
                                             <div className={styles['divmr13']}>
-                                              <img
+                                              <Image
                                                 src="/SVG1302-ongc.svg"
                                                 alt="SVG1302"
                                                 className={styles['svg07']}
@@ -934,7 +935,7 @@ const Divnext = (props) => {
                                               <div
                                                 className={styles['divml13']}
                                               >
-                                                <img
+                                                <Image
                                                   src="/SVG1314-7hmn.svg"
                                                   alt="SVG1314"
                                                   className={styles['svg08']}
@@ -973,7 +974,7 @@ const Divnext = (props) => {
                       <div className={styles['divsci-bkjdsmargin']}>
                         <div className={styles['divsci-bkjds']}>
                           {/* <button className={styles['buttonmargin']}>
-                            <img
+                            <Image
                               src
                               alt="Button1324"
                               className={styles['button02']}
@@ -1011,19 +1012,19 @@ const Divnext = (props) => {
                 </div>
                 <div className={styles['divrelative1']}>
                   <div className={styles['div38']}>
-                    <img
+                    <Image
                       src="/sebi.png.png"
                       alt="sebipng1337"
                       className={styles['sebipng']}
                     />
-                    <img
+                    <Image
                       src="/unbiasedImpartial.png.png"
                       alt="unbiasedImpartialpng1338"
                       className={styles['unbiased-impartialpng']}
                     />
                   </div>
                   <div className={styles['div39']}>
-                    <img
+                    <Image
                       src="/aiEngine.png.png"
                       alt="aiEnginepng1340"
                       className={styles['ai-enginepng']}
@@ -1031,12 +1032,12 @@ const Divnext = (props) => {
                   </div>
                   <div className={styles['divmt48margin']}>
                     <div className={styles['divmt48']}>
-                      <img
+                      <Image
                         src="/alumni.png.png"
                         alt="alumnipng1343"
                         className={styles['alumnipng']}
                       />
-                      <img
+                      <Image
                         src="/tradeHits.png.png"
                         alt="tradeHitspng1344"
                         className={styles['trade-hitspng']}
@@ -1059,7 +1060,7 @@ const Divnext = (props) => {
                   </div>
                 </div>
                 <div className={styles['div41']}>
-                  <img
+                  <Image
                     src="/updatedPrideNumber.png.png"
                     alt="updatedPrideNumberpng1354"
                     className={styles['updated-pride-numberpng']}
@@ -1087,7 +1088,7 @@ const Divnext = (props) => {
                 <div className={styles['divmxautomargin1']}>
                   <div className={styles['divmxauto06']}>
                     <div className={styles['divflex37']}>
-                      {/* <img
+                      {/* <Image
                         src
                         alt="divhidden1368"
                         className={styles['divhidden4']}
@@ -1096,7 +1097,7 @@ const Divnext = (props) => {
                         <div className={styles['divhidden5']}>
                           <button className={styles['button04']}>
                             <div className={styles['div43']}>
-                              {/* <img
+                              {/* <Image
                                 src
                                 alt="whiteleftarrowpng1373"
                                 className={styles['whiteleftarrowpng1']}
@@ -1105,7 +1106,7 @@ const Divnext = (props) => {
                           </button>
                           <button className={styles['button05']}>
                             <div className={styles['div44']}>
-                              {/* <img
+                              {/* <Image
                                 src
                                 alt="whiterightarrowpng1376"
                                 className={styles['whiterightarrowpng1']}
@@ -1160,13 +1161,13 @@ const Divnext = (props) => {
                                   <div className={styles['divrelativemargin']}>
                                     <div className={styles['divrelative2']}>
                                       <div className={styles['div45']}>
-                                        <img
+                                        <Image
                                           src
                                           alt="jayantvpng1400"
                                           className={styles['jayantvpng']}
                                         />
                                       </div>
-                                      <img
+                                      <Image
                                         src
                                         alt="indianflagpng1401"
                                         className={styles['indianflagpng']}
@@ -1187,7 +1188,7 @@ const Divnext = (props) => {
                                     </span>
                                   </div>
                                 </div>
-                                <img
+                                <Image
                                   src="/testimonial-background.png.png"
                                   alt="testimonialbackgroundpng1402"
                                   className={styles['testimonialbackgroundpng']}
@@ -1211,7 +1212,7 @@ const Divnext = (props) => {
                       <button className={styles['button06']}></button>
                     </button>
                     <button className={styles['buttonmargin3']}>
-                      {/* <img
+                      {/* <Image
                         src
                         alt="Button1428"
                         className={styles['button07']}
@@ -1250,7 +1251,7 @@ const Divnext = (props) => {
                         </span>
                       </div>
                       <div className={styles['divw6']}>
-                        <img
+                        <Image
                           src="/SVG1450-x4b5.svg"
                           alt="SVG1450"
                           className={styles['svg09']}
@@ -1391,7 +1392,7 @@ const Divnext = (props) => {
                         </span>
                       </div>
                       <div className={styles['divw61']}>
-                        <img
+                        <Image
                           src="/SVG1469-rtfp.svg"
                           alt="SVG1469"
                           className={styles['svg10']}
@@ -1411,7 +1412,7 @@ const Divnext = (props) => {
                         </span>
                       </div>
                       <div className={styles['divw62']}>
-                        <img
+                        <Image
                           src="/SVG1477-r4f.svg"
                           alt="SVG1477"
                           className={styles['svg11']}
@@ -1427,7 +1428,7 @@ const Divnext = (props) => {
                     <div className={styles['pgradienttextbase']}>
                       <span className={styles['text-see']}>See All</span>
                     </div>
-                    <img
+                    <Image
                       src="/SVG1484-6p5.svg"
                       alt="SVG1484"
                       className={styles['svg12']}
@@ -1439,14 +1440,14 @@ const Divnext = (props) => {
           </div>
         </div>
         <div className={styles['divblurred-view']}>
-          {/* <img src alt="pseudo1487" className={styles['pseudo']} />
-          <img src alt="pseudo1488" className={styles['pseudo1']} /> */}
+          {/* <Image src alt="pseudo1487" className={styles['pseudo']} />
+          <Image src alt="pseudo1488" className={styles['pseudo1']} /> */}
           <div className={styles['footer']}>
             <div className={styles['div49']}>
               <div className={styles['divflex42']}>
                 <div className={styles['link08']}>
                   <div className={styles['div50']}>
-                    <img
+                    <Image
                       src="/Logo.png.png"
                       alt="Logopng1494"
                       className={styles['logopng']}
@@ -1456,7 +1457,7 @@ const Divnext = (props) => {
                 <div className={styles['divflex43']}>
                   <div className={styles['link09']}>
                     <div className={styles['div51']}>
-                      <img
+                      <Image
                         src="/share.png.png"
                         alt="sharepng1498"
                         className={styles['sharepng']}
@@ -1466,7 +1467,7 @@ const Divnext = (props) => {
                   <div className={styles['div52']}>
                     <div className={styles['link10']}>
                       <div className={styles['div53']}>
-                        <img
+                        <Image
                           src="/instagram-vector.png.png"
                           alt="instagramvectorpng1502"
                           className={styles['instagramvectorpng']}
@@ -1477,7 +1478,7 @@ const Divnext = (props) => {
                   <div className={styles['div54']}>
                     <div className={styles['link11']}>
                       <div className={styles['div55']}>
-                        <img
+                        <Image
                           src="/facebook-vector.png.png"
                           alt="facebookvectorpng1506"
                           className={styles['facebookvectorpng']}
@@ -1488,7 +1489,7 @@ const Divnext = (props) => {
                   <div className={styles['div56']}>
                     <div className={styles['link12']}>
                       <div className={styles['div57']}>
-                        <img
+                        <Image
                           src="/twitter-vector.png.png"
                           alt="twittervectorpng1510"
                           className={styles['twittervectorpng']}
@@ -1499,7 +1500,7 @@ const Divnext = (props) => {
                   <div className={styles['div58']}>
                     <div className={styles['link13']}>
                       <div className={styles['div59']}>
-                        <img
+                        <Image
                           src="/linkedin-vector.png.png"
                           alt="linkedinvectorpng1514"
                           className={styles['linkedinvectorpng']}
@@ -1639,7 +1640,7 @@ const Divnext = (props) => {
                 <div className={styles['divflex44']}>
                   <div className={styles['link27']}>
                     <div className={styles['div65']}>
-                      <img
+                      <Image
                         src="/play-store_.png.png"
                         alt="playstorepng1573"
                         className={styles['playstorepng']}
@@ -1648,7 +1649,7 @@ const Divnext = (props) => {
                   </div>
                   <div className={styles['link28']}>
                     <div className={styles['div66']}>
-                      <img
+                      <Image
                         src="/app-store_.png.png"
                         alt="appstorepng1576"
                         className={styles['appstorepng']}
@@ -1657,7 +1658,7 @@ const Divnext = (props) => {
                   </div>
                 </div>
               </div>
-              {/* <img src alt="divmxauto1577" className={styles['divmxauto08']} /> */}
+              {/* <Image src alt="divmxauto1577" className={styles['divmxauto08']} /> */}
             </div>
             <div className={styles['divmxauto09']}>
               <div className={styles['divtextgray300']}>
@@ -1710,7 +1711,7 @@ const Divnext = (props) => {
                 <div className={styles['divflexmargin08']}>
                   <div className={styles['divflex45']}>
                     <div className={styles['div67']}>
-                      <img
+                      <Image
                         src="/location.png.png"
                         alt="locationpng1590"
                         className={styles['locationpng']}
@@ -1733,7 +1734,7 @@ const Divnext = (props) => {
                 <div className={styles['divflexmargin09']}>
                   <div className={styles['divflex46']}>
                     <div className={styles['div68']}>
-                      <img
+                      <Image
                         src="/Phone.png.png"
                         alt="Phonepng1599"
                         className={styles['phonepng']}
@@ -1756,7 +1757,7 @@ const Divnext = (props) => {
                 <div className={styles['divflexmargin10']}>
                   <div className={styles['divflex47']}>
                     <div className={styles['div69']}>
-                      <img
+                      <Image
                         src="/email.png.png"
                         alt="emailpng1607"
                         className={styles['emailpng']}
@@ -1827,7 +1828,7 @@ const Divnext = (props) => {
           <div className={styles['divcontainer5']}>
             <div className={styles['link30']}>
               <div className={styles['div70']}>
-                <img
+                <Image
                   src="/Logo.png.png"
                   alt="Logopng1630"
                   className={styles['logopng1']}
@@ -1836,7 +1837,7 @@ const Divnext = (props) => {
             </div>
             <div className={styles['divhidden7']}>
               <div className={styles['link31']}>
-                <img
+                <Image
                   src="/SVGmargin1633-js9l.svg"
                   alt="SVGmargin1633"
                   className={styles['sv-gmargin']}
@@ -1849,7 +1850,7 @@ const Divnext = (props) => {
               </div>
               <div className={styles['linkmargin']}>
                 <div className={styles['link32']}>
-                  <img
+                  <Image
                     src="/SVGmargin1641-7rw7.svg"
                     alt="SVGmargin1641"
                     className={styles['sv-gmargin1']}
@@ -1863,7 +1864,7 @@ const Divnext = (props) => {
               </div>
               <div className={styles['linkmargin1']}>
                 <div className={styles['link33']}>
-                  <img
+                  <Image
                     src="/SVGmargin1649-zwhj.svg"
                     alt="SVGmargin1649"
                     className={styles['sv-gmargin2']}
@@ -1877,7 +1878,7 @@ const Divnext = (props) => {
               </div>
               <div className={styles['linkmargin2']}>
                 <div className={styles['link34']}>
-                  <img
+                  <Image
                     src="/SVG1657-6o.svg"
                     alt="SVG1657"
                     className={styles['svg13']}
@@ -1892,7 +1893,7 @@ const Divnext = (props) => {
               <div className={styles['linkmargin3']}>
                 <div className={styles['link35']}>
                   <div className={styles['div71']}>
-                    <img
+                    <Image
                       src="/academy-navbar-icon.png.png"
                       alt="academynavbariconpng1664"
                       className={styles['academynavbariconpng']}
@@ -1908,7 +1909,7 @@ const Divnext = (props) => {
               <div className={styles['link36']}>
                 <button className={styles['button13']}>
                   <div className={styles['div72']}>
-                    <img
+                    <Image
                       src="/search-icon.png.png"
                       alt="searchiconpng1670"
                       className={styles['searchiconpng']}
@@ -1920,7 +1921,7 @@ const Divnext = (props) => {
             <div className={styles['divhidden8']}>
               <div className={styles['link37']}>
                 <div className={styles['div73']}>
-                  <img
+                  <Image
                     src="/barcode-icon.png.png"
                     alt="barcodeiconpng1674"
                     className={styles['barcodeiconpng']}
