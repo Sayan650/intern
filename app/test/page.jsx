@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import styles from './divnext.module.css'
+import styles from './test.module.css'
 
 const Divnext = (props) => {
   return (
